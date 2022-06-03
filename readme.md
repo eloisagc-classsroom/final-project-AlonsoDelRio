@@ -16,5 +16,6 @@ así como la página que pensamos implementar más adelante. Ya que, dicho proye
 una página web funcional, para presentar este proyecto durante la semana de ciencias en la Universidad Autónoma de Baja California.
 
 Cabe aclarar que este proyecto solamente necesita el IDE Arduino, y tener armado el sistema de riego para poder observar el funcionamiento del mismo. 
-Además, la página web se puede ejecutar, dirigiéndose hasta la carpeta de destino llamada "Pagina_SistemaRiego" y en powershell o CMD, 
-escribir "npm install npm@latest -g", posteriormente "npm install" y por ultimo "npm run dev", copiar la ruta web que te devuelve y pegar dicha ruta en tu buscador web preferido.
+Además, la página web se puede ejecutar, dirigiéndose hasta la carpeta de destino llamada "Pagina_SistemaRiego", descomprimiendo el archivo node_modules.rar y en powershell o CMD, escribir "npm run dev", copiar la ruta web que te devuelve y pegar dicha ruta en tu buscador web preferido.
+
+En caso de que ocurra un error, se necesita escribir primero "npm install npm@latest -g", posteriormente "npm install" y reintentar con "npm run dev".
